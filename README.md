@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/KOBA42-PROMPT%20LIBRARY-000000?style=for-the-badge&labelColor=6366f1&color=000000" alt="Koba42 Prompt Library"/>
+  <img src="https://img.shields.io/badge/KOBA42-OFFICIAL%20REPOSITORY-000000?style=for-the-badge&labelColor=6366f1&color=000000" alt="Koba42 Official Repository"/>
 </p>
 
 <h1 align="center">
@@ -9,7 +9,7 @@
 </h1>
 
 <h3 align="center">
-  <em>The Ultimate AI Development & Prompt Engineering Resource</em>
+  <em>Official AI Development & Prompt Engineering Resource</em>
 </h3>
 
 <p align="center">
@@ -30,9 +30,9 @@
 
 <br>
 
-## ⚡ What is Koba42?
+## ⚡ About Koba42
 
-**Koba42** is a comprehensive AI development resource library containing:
+**Koba42** ([koba42.com](https://koba42.com)) is a company dedicated to empowering developers and businesses with AI tools and resources. This is our official open-source repository containing:
 
 - **937+ AI Prompts** - Battle-tested prompt templates for virtually any use case
 - **51+ Code Examples** - Progressive JavaScript examples from basics to production-ready patterns
@@ -177,7 +177,7 @@ Whether you're a seasoned developer or just getting started with AI, this reposi
 ### Using Prompts
 
 ```bash
-# Clone the repository
+# Clone Koba42's repository
 git clone https://github.com/koba42/prompts.git
 
 # Browse prompts
@@ -298,7 +298,7 @@ Each prompt follows a proven framework:
 
 ## 🤝 Contributing
 
-We welcome contributions across all areas:
+Koba42 welcomes contributions from the community across all areas:
 
 ### Adding Prompts
 1. Fork this repository
@@ -324,12 +324,16 @@ We welcome contributions across all areas:
 
 <br>
 
-## 📬 Connect
+## 📬 Connect with Koba42
 
 <p align="center">
   <a href="https://koba42.com">
-    <img src="https://img.shields.io/badge/🌐_Website-koba42.com-6366f1?style=for-the-badge" alt="Website"/>
+    <img src="https://img.shields.io/badge/🌐_Visit%20Our%20Website-koba42.com-6366f1?style=for-the-badge" alt="Website"/>
   </a>
+</p>
+
+<p align="center">
+  Visit <a href="https://koba42.com"><strong>koba42.com</strong></a> to learn more about our company, services, and other resources.
 </p>
 
 <br>
@@ -337,7 +341,7 @@ We welcome contributions across all areas:
 ---
 
 <p align="center">
-  <sub>Built with 💜 by <strong>Koba42</strong></sub>
+  <sub>Built with 💜 by <strong><a href="https://koba42.com">Koba42</a></strong></sub>
   <br>
   <sub>Empowering humans to harness AI effectively</sub>
 </p>
