@@ -1,0 +1,13 @@
+# PDF files (local use only)
+*.pdf
+articles/*.pdf
+
+# CSS files for PDF generation (local use only)
+articles/pdf-style.css
+
+# Temporary HTML files
+articles/*.html
+
+# Python scripts for PDF conversion
+articles/*.py
+
