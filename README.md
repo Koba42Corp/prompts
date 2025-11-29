@@ -9,7 +9,7 @@
 </h1>
 
 <h3 align="center">
-  <em>The Ultimate AI Prompt Engineering Library</em>
+  <em>The Ultimate AI Development & Prompt Engineering Resource</em>
 </h3>
 
 <p align="center">
@@ -17,12 +17,13 @@
     <img src="https://img.shields.io/badge/Visit-Koba42.com-6366f1?style=flat-square&logo=google-chrome&logoColor=white" alt="Website"/>
   </a>
   <img src="https://img.shields.io/badge/Prompts-937+-10b981?style=flat-square" alt="Prompts"/>
-  <img src="https://img.shields.io/badge/Categories-50+-f59e0b?style=flat-square" alt="Categories"/>
+  <img src="https://img.shields.io/badge/Code%20Examples-51+-f59e0b?style=flat-square" alt="Code Examples"/>
+  <img src="https://img.shields.io/badge/Systems%20Docs-5+-8b5cf6?style=flat-square" alt="Systems Docs"/>
   <img src="https://img.shields.io/badge/License-Open%20Source-ef4444?style=flat-square" alt="License"/>
 </p>
 
 <p align="center">
-  <strong>Unlock the full potential of AI with expertly crafted prompts</strong>
+  <strong>Everything you need to master AI development: prompts, code examples, system guides, and more</strong>
 </p>
 
 ---
@@ -31,11 +32,52 @@
 
 ## ⚡ What is Koba42?
 
-**Koba42** is a meticulously curated collection of **937+ AI prompts** designed to supercharge your productivity, creativity, and business operations. Whether you're a seasoned prompt engineer or just getting started with AI, this library provides battle-tested templates for virtually any use case.
+**Koba42** is a comprehensive AI development resource library containing:
+
+- **937+ AI Prompts** - Battle-tested prompt templates for virtually any use case
+- **51+ Code Examples** - Progressive JavaScript examples from basics to production-ready patterns
+- **System Documentation** - In-depth guides for popular platforms (MongoDB, Supabase, Parse, Vercel, OpenAI)
+- **Articles & Guides** - Strategic resources for building AI-powered products
+
+Whether you're a seasoned developer or just getting started with AI, this repository provides everything you need to build, deploy, and scale AI applications.
 
 <br>
 
-## 🎯 Featured Categories
+## 📦 Repository Structure
+
+### `/prompts` - AI Prompt Library
+**937+ ready-to-use prompts** organized by category:
+- Business & Strategy
+- Marketing & Content
+- Education & Learning
+- Finance & Investment
+- Cybersecurity
+- Creative & Design
+- Personal Development
+- And 50+ more categories
+
+### `/scripts` - Code Examples
+**51 progressive JavaScript examples** covering:
+- Basics (setup, completions, conversations)
+- Intermediate (embeddings, RAG, function calling)
+- Advanced (production patterns, error recovery, optimization)
+- Complete learning path from beginner to expert
+
+### `/systems` - System Documentation
+**Comprehensive guides** for popular platforms:
+- MongoDB, Supabase, Parse Platform
+- Vercel, OpenAI API
+- Comparison data, integration insights, best practices
+
+### `/articles` - Strategic Resources
+**Guides and checklists** for:
+- Idea validation
+- Business planning
+- Product development strategies
+
+---
+
+## 🎯 Featured Prompt Categories
 
 <table>
 <tr>
@@ -132,44 +174,98 @@
 
 ## 🚀 Quick Start
 
+### Using Prompts
+
 ```bash
 # Clone the repository
 git clone https://github.com/koba42/prompts.git
 
-# Navigate to the prompts directory
+# Browse prompts
 cd prompts/prompts
+# Find and copy any prompt template
+```
 
-# Browse and use any prompt!
+### Running Code Examples
+
+```bash
+# Navigate to scripts directory
+cd scripts
+
+# Install dependencies
+npm install
+
+# Set up your API key
+echo "OPENAI_API_KEY=your_key_here" > .env
+
+# Run any example
+node 01-basic-setup.js
+```
+
+### Reading System Documentation
+
+```bash
+# Navigate to systems directory
+cd systems
+
+# Read any system guide
+cat mongodb.md
+cat supabase.md
 ```
 
 <br>
 
 ## 📖 How to Use
 
+### For Prompts
 1. **Browse** the `/prompts` directory to find relevant templates
 2. **Copy** the prompt that matches your needs
 3. **Customize** the variables and context for your specific use case
 4. **Execute** in your preferred AI platform (ChatGPT, Claude, etc.)
 5. **Iterate** and refine based on results
 
+### For Code Examples
+1. **Start** with `scripts/01-basic-setup.js` to verify your environment
+2. **Follow** the numbered sequence (01-51) for progressive learning
+3. **Read** `scripts/00-instructions.md` for setup and best practices
+4. **Experiment** by modifying examples to suit your needs
+5. **Reference** `scripts/README.md` for the complete learning path
+
+### For System Documentation
+1. **Review** `systems/README.md` for available system guides
+2. **Read** specific system documentation for integration details
+3. **Compare** systems using the comparison tables provided
+4. **Follow** getting started guides for quick setup
+
 <br>
 
-## ✨ Prompt Structure
+## ✨ What's Included
 
-Each prompt in this library follows a proven framework:
+### Prompt Structure
+Each prompt follows a proven framework:
+- 📋 Clear objective definition
+- 📝 Detailed context and requirements  
+- 🎯 Specific output expectations
+- ❓ Clarifying question methodology
+- 🔄 Iterative refinement approach
 
-```
-📋 Clear objective definition
-📝 Detailed context and requirements  
-🎯 Specific output expectations
-❓ Clarifying question methodology
-🔄 Iterative refinement approach
-```
+### Code Examples Coverage
+- ✅ API Integration (OpenAI, error handling, rate limiting)
+- ✅ Advanced Patterns (RAG, embeddings, function calling)
+- ✅ Production Ready (caching, monitoring, cost tracking)
+- ✅ Real-world Applications (web scraping, chatbots, automation)
+
+### System Documentation Features
+- 📊 Comparison tables with alternatives
+- 🚀 Quick start guides
+- 🔧 Integration examples
+- 💡 Best practices and performance tips
+- 🎯 Use case recommendations
 
 <br>
 
-## 🌟 Popular Prompts
+## 🌟 Popular Resources
 
+### Top Prompts
 | Prompt | Use Case |
 |--------|----------|
 | `comprehensive_guide_on_prompt_engineering.md` | Master prompt engineering |
@@ -179,16 +275,52 @@ Each prompt in this library follows a proven framework:
 | `content_creation_guide.md` | Generate engaging content |
 | `cybersecurity_audit_guide.md` | Security assessment |
 
+### Essential Code Examples
+| Script | What You'll Learn |
+|--------|-------------------|
+| `01-basic-setup.js` | Initialize OpenAI API client |
+| `18-function-calling.js` | AI function calling patterns |
+| `23-rag-basic.js` | Retrieval Augmented Generation |
+| `28-caching.js` | Response caching strategies |
+| `38-cost-tracking.js` | Monitor API costs |
+| `50-production-ready-example.js` | Complete production pattern |
+
+### System Guides
+| System | Focus Area |
+|--------|-----------|
+| `mongodb.md` | NoSQL database for AI applications |
+| `supabase.md` | Open-source Firebase alternative |
+| `parse-platform.md` | Self-hosted backend-as-a-service |
+| `vercel.md` | Frontend deployment platform |
+| `openai-api.md` | OpenAI API integration guide |
+
 <br>
 
 ## 🤝 Contributing
 
-We welcome contributions! If you have powerful prompts to share:
+We welcome contributions across all areas:
 
+### Adding Prompts
 1. Fork this repository
-2. Add your prompt following our structure
+2. Add your prompt to `/prompts` following our structure
 3. Submit a pull request
-4. Help the community grow
+
+### Adding Code Examples
+1. Follow the numbering convention (next available number)
+2. Include comprehensive comments and documentation
+3. Update `scripts/README.md` with your example
+
+### Adding System Documentation
+1. Create a new `.md` file in `/systems`
+2. Follow the documentation template in `systems/README.md`
+3. Update the systems index
+
+### Adding Articles
+1. Add strategic guides to `/articles`
+2. Focus on actionable, practical content
+3. Maintain high quality standards
+
+**Help the community grow!** 🚀
 
 <br>
 
